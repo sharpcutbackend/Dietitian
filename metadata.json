@@ -1,0 +1,7 @@
+{
+  "name": "The Dietitian - Dietitian & Meal Delivery",
+  "description": "A comprehensive wellness platform allowing clients to book expert dietitian consultations and order healthy, chef-curated meals directly to their door.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
