@@ -63,6 +63,12 @@ export interface BookingService {
   description: string;
 }
 
+export interface ActionTrail {
+  status: string;
+  timestamp: string;
+  note?: string;
+}
+
 export interface Appointment {
   id: string;
   userId: string;
@@ -72,6 +78,7 @@ export interface Appointment {
   time: string;
   status: AppointmentStatus;
   notes?: string;
+  history: ActionTrail[];
 }
 
 export interface User {
@@ -99,6 +106,7 @@ export interface Order {
   shippingAddress: string;
   currency: Currency;
   isSubscription: boolean;
+  history: ActionTrail[];
 }
 
 export interface ChatMessage {
@@ -118,4 +126,14 @@ export interface Story {
   date: string;
   image?: string;
   role: 'user' | 'admin';
+}
+
+export interface AppNotification {
+  id: string;
+  userId: string;
+  title: string;
+  message: string;
+  type: 'reminder' | 'info' | 'success';
+  read: boolean;
+  timestamp: Date;
 }

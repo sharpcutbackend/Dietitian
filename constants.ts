@@ -49,7 +49,8 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     addOns: "Add-ons",
     submitStory: "Share Your Story",
     pendingApproval: "Pending Approval",
-    dashboard: "Admin Dashboard"
+    dashboard: "Admin Dashboard",
+    price: "Price"
   },
   tw: { // Twi (Akan)
     home: "Fie",
@@ -95,7 +96,8 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     addOns: "Nnoɔma a Wopɛ",
     submitStory: "Ka Wo Sɛm",
     pendingApproval: "Yɛretwɛn",
-    dashboard: "Admin Dashboard"
+    dashboard: "Admin Dashboard",
+    price: "Ne Boɔ"
   },
   fr: {
     home: "Accueil",
@@ -141,7 +143,8 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     addOns: "Suppléments",
     submitStory: "Partagez Votre Histoire",
     pendingApproval: "En Attente",
-    dashboard: "Tableau de Bord"
+    dashboard: "Tableau de Bord",
+    price: "Prix"
   },
   es: {
     home: "Inicio",
@@ -187,7 +190,8 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     addOns: "Adicionales",
     submitStory: "Comparte tu Historia",
     pendingApproval: "Pendiente",
-    dashboard: "Panel de Admin"
+    dashboard: "Panel de Admin",
+    price: "Precio"
   },
   zh: {
     home: "首页",
@@ -233,7 +237,8 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     addOns: "附加项",
     submitStory: "分享您的故事",
     pendingApproval: "待批准",
-    dashboard: "管理仪表板"
+    dashboard: "管理仪表板",
+    price: "价格"
   }
 };
 
